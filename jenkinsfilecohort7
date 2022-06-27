@@ -6,7 +6,7 @@ pipeline{
   stages{
     stage("1.CodeClone"){
       steps{
-        git credentialsId: 'Github-Cred', url: 'https://github.com/team16flight/web-app.git'
+        git credentialsId: 'Github-Cred', url: 'https://github.com/ogensogens/web-app.git'
       }
     }
     stage("2.Build"){
